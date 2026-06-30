@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <form method="POST"
+        action="https://script.google.com/macros/s/AKfycbxYaL0QefyLbfV7q1SSBPNR0-pw39BMqnMDNvVBut5wx5wGfEsVyi21duqGJaLjz3qs/exec">
+        <fieldset>
+            <h1>Faculty Satisfaction Survey</h1>
+            <br>
+            <h2>Basic Personal Information</h2>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="Name"></input><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="Email"></input><br>
+
+            <label for="age">Age:</label>
+            <select id="age" name="Age">
+                <option value="age" selected>Select your age</option>
+                <option value="18-30">18-30</option>
+                <option value="31-50">31-50</option>
+                <option value="51+">51+</option>
+            </select><br>
+
+            <label for="gender">Gender:</label>
+
+            <input type="radio" id="male" name="Gender" value="Male">Male</input>
+            <input type="radio" id="female" name="Gender" value="Female">Female</input>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <h2>Evaluation</h1>
+            <table>
+                <th>Number</th>
+                <th>Criteria</th>
+                <th>Rating</th>
+
+                <tr>
+                    <td>1</td>
+                    <td>The professor provides insightful and engaging discussions.</td>
+                    <td>
+                        <input type="radio" name="q1" id="rating" value="1">1</input>
+                        <input type="radio" name="q1" id="rating" value="2">2</input>
+                        <input type="radio" name="q1" id="rating" value="3">3</input>
+                        <input type="radio" name="q1" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>The professor demonstrates strong knowledge of the subject matter.</td>
+                    <td>
+                        <input type="radio" name="q2" id="rating" value="1">1</input>
+                        <input type="radio" name="q2" id="rating" value="2">2</input>
+                        <input type="radio" name="q2" id="rating" value="3">3</input>
+                        <input type="radio" name="q2" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>The professor responds to questions in a helpful and respectful manner</td>
+                    <td>
+                        <input type="radio" name="q3" id="rating" value="1">1</input>
+                        <input type="radio" name="q3" id="rating" value="2">2</input>
+                        <input type="radio" name="q3" id="rating" value="3">3</input>
+                        <input type="radio" name="q3" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>The professor uses teaching methods that support student learning</td>
+                    <td>
+                        <input type="radio" name="q4" id="rating" value="1">1</input>
+                        <input type="radio" name="q4" id="rating" value="2">2</input>
+                        <input type="radio" name="q4" id="rating" value="3">3</input>
+                        <input type="radio" name="q4" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>The professor encourages active participation during class.</td>
+                    <td>
+                        <input type="radio" name="q5" id="rating" value="1">1</input>
+                        <input type="radio" name="q5" id="rating" value="2">2</input>
+                        <input type="radio" name="q5" id="rating" value="3">3</input>
+                        <input type="radio" name="q5" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>The professor effectively facilitates classroom discussions.</td>
+                    <td>
+                        <input type="radio" name="q6" id="rating" value="1">1</input>
+                        <input type="radio" name="q6" id="rating" value="2">2</input>
+                        <input type="radio" name="q6" id="rating" value="3">3</input>
+                        <input type="radio" name="q6" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>The professor manages class time efficiently.</td>
+                    <td>
+                        <input type="radio" name="q7" id="rating" value="1">1</input>
+                        <input type="radio" name="q7" id="rating" value="2">2</input>
+                        <input type="radio" name="q7" id="rating" value="3">3</input>
+                        <input type="radio" name="q7" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>The professor treats students fairly regardless of background or ability.</td>
+                    <td>
+                        <input type="radio" name="q8" id="rating" value="1">1</input>
+                        <input type="radio" name="q8" id="rating" value="2">2</input>
+                        <input type="radio" name="q8" id="rating" value="3">3</input>
+                        <input type="radio" name="q8" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>The professor effectively uses technology to enhance learning.</td>
+                    <td>
+                        <input type="radio" name="q9" id="rating" value="1">1</input>
+                        <input type="radio" name="q9" id="rating" value="2">2</input>
+                        <input type="radio" name="q9" id="rating" value="3">3</input>
+                        <input type="radio" name="q9" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>The professor uses teaching methods that support student learning</td>
+                    <td>
+                        <input type="radio" name="q10" id="rating" value="1">1</input>
+                        <input type="radio" name="q10" id="rating" value="2">2</input>
+                        <input type="radio" name="q10" id="rating" value="3">3</input>
+                        <input type="radio" name="q10" id="rating" value="4">4</input>
+                    </td>
+                </tr>
+
+
+
+            </table><br>
+
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="Comments"></textarea><br><br>
+
+        </fieldset>
+
+        <input required type="checkbox" id="check" name="check"></input>
+        <label>I confirm that the information I provided is true and accurate.</label><br>
+        <input required type="checkbox" id="check" name="check"></input>
+        <label>I have read and understood DLSU-D's Data Privacy Notice.
+        </label><br>
+        <input required type="checkbox" id="check" name="check"></input>
+        <label>I consent to the collection and processing of my responses for academic quality assurance purposes.</label><br>
+
+        <div class="button-container">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
